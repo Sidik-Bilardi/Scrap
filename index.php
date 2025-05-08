@@ -2,13 +2,13 @@
 $colors = array("red", "green", "blue", "yellow");
 
 foreach ($colors as $x) {
-  $color = htmlspecialchars($x, ENT_QUOTES, 'UTF-8') . '<br>';
+  $escapedColor = htmlspecialchars($x, ENT_QUOTES, 'UTF-8');
   $text = "";
-  if($color == "green"){
-    $text = "I Like ".$color;
+  if($x == "green"){
+    $text = "I Like ". $escapedColor ;
   }else{
-    $text = "I dont Like ".$color;
+    $text = "I dont Like ". $escapedColor ;
   }
-  echo $text;
+  echo $text. "<br>";
 }
 ?>
