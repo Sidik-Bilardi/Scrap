@@ -1,1 +1,2 @@
 # Scrap
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/Sidik-Bilardi/Scrap?utm_source=oss&utm_medium=github&utm_campaign=Sidik-Bilardi%2FScrap&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
